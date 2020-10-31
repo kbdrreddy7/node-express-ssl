@@ -26,7 +26,7 @@ var ca2 = fs.readFileSync('/etc/ssl/mvbr/gd_bundle-g2-g1.crt')
  */
 
 var credentials = {key, cert,passphrase:"givePassword"};
-//var credentials = {key, cert,ca:[ca1,ca2],passphrase:'givePassword'}
+//var credentials = {key, cert,ca:[ca1,ca2],passphrase:'givePassword'} 
 
 
 

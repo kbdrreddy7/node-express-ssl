@@ -18,7 +18,8 @@ https.createServer(options, function (req, res) {
 // in place of app pass express app
 
 var key  = fs.readFileSync('server.key'); //key.key  // key.pem
-var cert = fs.readFileSync('server.crt');  //crt.crt // cert.pem
+var cert = fs.readFileSync('server.crt');  //crt.crt // cert.pem 
+// .crt --> given by CA authority / selft signed .crt
 
 /* var ca1 = fs.readFileSync('/etc/ssl/mvbr/gdroot-g2.crt')
 var ca2 = fs.readFileSync('/etc/ssl/mvbr/gd_bundle-g2-g1.crt')

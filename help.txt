@@ -32,6 +32,10 @@ Steps:-
 
  b) Upload the CSR file to any SSL Certificate Authority site ( eg: Godaddy)
     then they will give Certificate
+                            they will give 
+                                   certificate.crt,  // crt file  main
+                                   certificate.pem
+                                   gd_bundle-g2-g1.crt   // Chain files
 
 
 --------------------- or with .pem extention -----------
